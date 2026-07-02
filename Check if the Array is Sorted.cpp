@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int arr[] = {4, 8, 9, 1, 2, 3};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    bool ans = true;
+
+    for (int i = 0; i < size - 1; i++)
+    {
+        if (arr[i + 1] < arr[i])
+        {
+            ans = false;
+        }
+    }
+    if (ans == true)
+    {
+        cout << "True " << endl;
+    }
+    else
+    {
+        cout << "False " << endl;
+    }
+
+    return 0;
+}
