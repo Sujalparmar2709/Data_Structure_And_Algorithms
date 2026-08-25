@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    string str = "welcome to the jungle";
+    string str = "welcome to t  he jungle";
     int n = str.length();
     string ans = "";
     reverse(str.begin(), str.end());
